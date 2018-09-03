@@ -1,0 +1,26 @@
+{
+  "name": "checkerboard",
+  "version": "1.0.0",
+  "description": "棋盘计算",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pheart/checkerboard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pheart/checkerboard/issues"
+  },
+  "homepage": "https://github.com/pheart/checkerboard#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
