@@ -16,8 +16,7 @@ function getBoardSize(board) {
  */
 function getOtherPlayer(o) {
 	let players = ['x', 'o'];
-	if (o === players[0]) return players[1];
-	if (o === players[1]) return players[0];
+	return o === players[0] ? players[1] : players[0];
 }
 
 /** 
